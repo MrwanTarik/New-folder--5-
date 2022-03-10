@@ -1,0 +1,113 @@
+html {
+  scroll-behavior: smooth;
+}
+ul {
+  list-style: none;
+}
+@media(min-width:2000px){
+  .container {
+    max-width:1920px;
+  }
+}
+/* header */
+/* nav */
+header{
+  overflow-y:hidden ;
+  position: relative;
+  height: 100vh;
+  background-image: url(../images/Group\ 148.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header nav {
+  padding-top: 40px !important;
+  padding-bottom: 0 !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 0;
+  color: white;
+  font-size: 22px;
+  margin-right: 162px;
+}
+.navbar-brand{
+  padding: 0;
+  margin-right: 198px;
+}
+header nav .insta-link {
+  margin-right: 69px;
+}
+header nav .nav-social i{
+  font-size: 39px;
+  color: white;
+}
+/* End nav */
+/* landing */
+
+
+header .landing .content .image-holder {
+  margin-top: 82px;
+}
+header .landing {
+  position: relative;
+}
+header .landing .content h1 {
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  margin-top: 17px;
+  margin-bottom: 15px;
+}
+header .landing .content p {
+  font-size: 24px;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 75px;
+}
+header .landing .content .arrows{
+  position: absolute;
+  left: -238px;
+  top: 50px;
+}
+header .landing .image-holder-2 {
+  position: absolute;
+  left: 42%;
+  top: 11%;
+}
+header .landing .coins-img {
+  position: absolute;
+  right: 0;
+  top: 85px;
+}
+header .landing .usd-img{
+  position: absolute;
+  right: 162px;
+  top: 90px;
+}
+/* End Landing */
+/* End header */
+/* work section */
+#work{
+  background-color: #FFF037;
+}
+#work h2 {
+  padding-top:69px;
+  margin-bottom: 40px;
+}
+#work .work-content p {
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: auto;
+  max-width: 1204px;
+}
+#work .work-content .img-left {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+#work .work-content .img-right {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+} 
+/* End work section */
